@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+
+
+body {
+    --body-color: white;
+    --text-color: #262626;
+    --nav-section: #950c17!important;
+    --footer-color: #f2f2f2;
+    --footer-text-color: #616161;
+    --font-family: 'Noto Sans Mono';
+    --font-family-alt: 'Roboto Slab';
+
+
+}
