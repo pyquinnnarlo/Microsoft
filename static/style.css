@@ -11,5 +11,338 @@ body {
     --font-family: 'Noto Sans Mono';
     --font-family-alt: 'Roboto Slab';
 
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-color);
+    font-family: var(--font-family);
+}
+
+.nav{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.logo {
+    margin-top: 1%;
+    width: 100px; 
+    height: 20px; 
+    margin-left: 5%;
+}
+.nav-t-s {
+    font-weight:400;
+    margin-top: 1%;
+    margin-left: 17px;
+    color: var(--text-color);
+}
+
+.nav-2{
+    display: flex;
+    justify-content: end;
+    margin-top: 1%;
+    margin-left: 18%;
+}
+.drop-arrow{
+    width: 15px;
+    height: 15px;
+
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+
+.cart-icon{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+.account-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+
+/*------------------ Under Header section ------------------*/
+
+.u-header {
+    background-color: var(--nav-section);
+    color: white;
+    padding: 6px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.u-image{
+    background-image: url('/img/u-img.avif');
+    min-height: 55vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.u-text{
+    padding-left: 15%;
+    padding-right: 5%;
+    
+}
+
+h4{
+    font-weight: 400;
+}
+
+.save-on{
+    font-family: var(--font-family);
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn1{
+    background-color: white;
+    border: none;
+    color: var(--nav-section);
+    font-weight: 300;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: black !important;
+    color: white !important;
+    padding: 2%;
+    font-family: var(--font-family);
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    
+}
+
+/*------------------ End of Under Header section ------------------*/
+
+
+/*------------------ Section 1 ------------------*/
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-a {
+    width: 20px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.fill-c{
+    width: 15px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+.unfill-c{
+    width: 15px;
+    margin-top: 2%;
+    margin-right: 3%;
+   
+}
+
+.right-a {
+    width: 25px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+
+/*------------------ End of Section 1 ------------------*/
+
+
+/*------------------ Section 1 of 1 ------------------*/
+
+.section-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+  
+}
+
+.ic {
+    position:relative;
+    left: 40%;
+    display: block;
+    
+}
+
+.span-text{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+
+
+
+
+/*------------------ End of Section 1 of 1 ------------------*/
+
+
+
+/*------------------ Section 2 ------------------*/
+.section-2-container{
+    display: flex;
+    justify-content:center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.box-section{
+    width: 300px;
+}
+
+h2 {
+    /* color: white; */
+    padding-left: 4%;
+    padding-right: 30%;
+    font-size: 19px;
+}
+.span-box{
+    padding: 1%;
+    /* background-color: #950c17; */
+}
+.p-1{
+    font-size: 12px;
+    /* padding-left: 4%;
+    padding-right: 30%; */
+    text-align: center;
+
+}
+
+.link-h{
+   color: var(--nav-section);
+   font-weight: 600;
+   text-decoration: none;
+}
+
+.link-h:hover{
+    text-decoration: underline;
+}
+
+.arrow {
+    width: 15px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+/*------------------End of Section 2 ------------------*/
+
+
+
+/*------------------ Section 3 ------------------*/
+
+.section-3-img{
+    background-image: url('/img/section3.avif');
+    height: 65vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 45%;
+    padding-left: 5%;
+
+}
+
+.txt{
+    font-size: 13px;
+}
+
+.btn-o-o{
+    margin-top: 5%;
+}
+
+.btn-o{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    font-weight: 600;
+}
+
+/*------------------End of Section 3 ------------------*/
+
+
+
+/*------------------ Section 3 ------------------*/
+
+.section-4{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.section-4-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.card-card {
+    margin-top: 40%;
+    border: 2px solid;
+    
+}
+
+.card-cards{
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 575px) {
+    .nav-t-s{
+        display: none;
+    }
+
+    .nav-2 {
+        margin-left: 40%;
+    }
+    .save-on{
+        font-size: 15px;
+        color: white;
+    }
+    h4 {
+        font-size: 10px;
+        color: white;
+    }
+    .u-text{
+        background-color: rgba(0, 0, 0, 0.322);
+      
+        padding-left: 24%;
+        padding-right: 5%;
+    }
+   
+
+    .cyber{
+        font-size: 10px;
+    }
+    .drop-arrow {
+        width: 10px;
+        height: 10px;
+    }
 
 }
